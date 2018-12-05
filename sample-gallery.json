@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/schemas/v2/example.json",
     "examples": [
         {
-            "name": "Device Registration with DPS",
-            "project_name": "devkit_dps",
-            "description": "Use the Device Provisioning Service to automatically provision security enabled devices to IoT hub.",
-            "url": "IoTDevEnvExamples/DevKitDPS",
-            "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-dps.jpg",
-            "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit_dps.md",
+            "name": "Custom Vision",
+            "project_name": "custom_vision",
+            "description": "Custom Vision is an image classifier that is trained in the cloud with your own images.",
+            "url": "Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi",
+            "image": "https://raw.githubusercontent.com/michaeljqzq/edge-sample-gallery/images/custom-vision.png",
+            "tutorial": "https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi/blob/master/README.md",
             "difficulty": "medium",
             "featured": true
         },
