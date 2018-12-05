@@ -6,7 +6,7 @@
             "project_name": "custom_vision",
             "description": "Custom Vision is an image classifier that is trained in the cloud with your own images.",
             "url": "Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi",
-            "image": "https://raw.githubusercontent.com/michaeljqzq/edge-sample-gallery/images/custom-vision.png",
+            "image": "https://github.com/michaeljqzq/edge-sample-gallery/raw/master/images/custom-vision.png",
             "tutorial": "https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi/blob/master/README.md",
             "difficulty": "medium",
             "featured": true
