@@ -9,7 +9,7 @@
             "image": "https://github.com/michaeljqzq/edge-sample-gallery/raw/master/images/custom-vision.png",
             "tutorial": "https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi/blob/master/README.md",
             "difficulty": "medium",
-            "featured": true
+            "featured": false
         },
         {
             "name": "Get Started",
