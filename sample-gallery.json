@@ -1,6 +1,24 @@
 {
-    "$schema": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/schemas/v2/example.json",
-    "examples": [
+    "$schema": "",
+    "devices": [
+      {
+        "id": "rasp_pi_3",
+        "name": "Raspberry Pi 3"
+      },
+      {
+        "id": "devkit",
+        "name": "MXChip DevKit"
+      },
+      {
+        "id": "x64_device",
+        "name": "X64 Device"
+      }
+    ],
+    "platforms": [
+      "amd64",
+      "arm32v7"
+    ],
+    "samples": [
         {
             "name": "Custom Vision",
             "project_name": "custom_vision",
@@ -9,6 +27,16 @@
             "image": "https://github.com/michaeljqzq/edge-sample-gallery/raw/master/images/custom-vision.png",
             "tutorial": "https://github.com/Azure-Samples/Custom-vision-service-iot-edge-raspberry-pi/blob/master/README.md",
             "difficulty": "medium",
+            "supportDevices": [
+              {
+                "deviceId": "rasp_pi_3",
+                "platform": "arm32v7"
+              },
+              {
+                "deviceId": "x64_device",
+                "platform": "amd64"
+              }
+            ],
             "featured": false
         },
         {
@@ -18,7 +46,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitGetStarted/archive/master.zip",
             "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-devkit-get-started-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-get-started.md",
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "Firmware OTA",
@@ -27,7 +61,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitFirmwareOTA/archive/master.zip",
             "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-OTA-firmware-update-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-ota.md",
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "Remote Monitoring",
@@ -36,7 +76,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitRemoteMonitoringV2/archive/master.zip",
             "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-remote-monitoring-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit_remote_monitoringv2.md",
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "DevKit State",
@@ -45,7 +91,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitState/archive/master.zip",
             "image": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/gallery/gallery-image/projects-devKit-state-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-state.md",
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "DevKit Translator",
@@ -54,7 +106,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitTranslator/archive/master.zip",
             "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-devkit-translator-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-translator.md",
-            "difficulty": "medium"
+            "difficulty": "medium",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "MQTT Client",
@@ -63,7 +121,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitMQTTClient/archive/master.zip",
             "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-mqtt-helloworld-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-mqtt-client.md",
-            "difficulty": "easy"
+            "difficulty": "easy",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "Shake, Shake for a Tweet",
@@ -72,7 +136,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitShakeShake/archive/master.zip",
             "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-shake-shake-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit-shakeshake.md",
-            "difficulty": "medium"
+            "difficulty": "medium",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         },
         {
             "name": "Door Monitor",
@@ -81,7 +151,13 @@
             "url": "https://github.com/IoTDevEnvExamples/DevKitDoorMonitor/archive/master.zip",
             "image": "https://microsoft.github.io/azure-iot-developer-kit/assets/images/projects-door-monitor-th.jpg",
             "tutorial": "https://github.com/Microsoft/vscode-iot-workbench/blob/master/docs/iot-devkit/devkit_door_monitor.md",
-            "difficulty": "medium"
+            "difficulty": "medium",
+            "supportDevices": [
+              {
+                "deviceId": "devkit",
+                "platform": "arm32v7"
+              }
+            ]
         }
     ],
     "aside": [
