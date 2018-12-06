@@ -90,16 +90,16 @@
             "title": "Quick Links",
             "items": [
                 {
-                    "text": "API Reference",
-                    "url": "https://microsoft.github.io/azure-iot-developer-kit/docs/apis/arduino-language-reference/"
+                    "text": "About Azure IoT Edge",
+                    "url": "https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge"
                 },
                 {
-                    "text": "FAQ",
-                    "url": "https://microsoft.github.io/azure-iot-developer-kit/docs/faq/"
+                    "text": "Documentation",
+                    "url": "https://github.com/Microsoft/vscode-azure-iot-edge"
                 },
                 {
                     "text": "Report Issue",
-                    "url": "https://github.com/Microsoft/devkit-sdk/issues/new"
+                    "url": "https://github.com/Microsoft/vscode-azure-iot-edge/issues/new"
                 }
             ]
         },
