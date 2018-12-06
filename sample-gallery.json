@@ -137,7 +137,7 @@
                 {
                     "icon": "github",
                     "text": "GitHub",
-                    "url": "https://github.com/microsoft/devkit-sdk"
+                    "url": "https://github.com/Microsoft/vscode-azure-iot-edge"
                 },
                 {
                     "icon": "feed",
