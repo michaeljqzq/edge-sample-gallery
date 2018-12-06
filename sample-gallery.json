@@ -29,12 +29,12 @@
             "difficulty": "medium",
             "supportDevices": [
               {
-                "deviceId": "rasp_pi_3",
-                "platform": "arm32v7"
-              },
-              {
                 "deviceId": "x64_device",
                 "platform": "amd64"
+              },
+              {
+                "deviceId": "rasp_pi_3",
+                "platform": "arm32v7"
               }
             ],
             "featured": false
