@@ -109,6 +109,10 @@
             "difficulty": "medium",
             "supportDevices": [
               {
+                "deviceId": "x64_device",
+                "platform": "amd64"
+              },
+              {
                 "deviceId": "devkit",
                 "platform": "arm32v7"
               }
