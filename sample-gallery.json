@@ -1,5 +1,5 @@
 {
-    "$schema": "",
+    "$schema": "https://raw.githubusercontent.com/michaeljqzq/edge-sample-gallery/master/sample-gallery-schema.json",
     "devices": [
       {
         "id": "rasp_pi_3",
