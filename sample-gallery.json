@@ -181,11 +181,6 @@
             ]
         },
         {
-            "type": "feed",
-            "title": "Blogs",
-            "url": "https://blogs.msdn.microsoft.com/iotdev/feed/"
-        },
-        {
             "type": "table",
             "title": "Info",
             "rows": [
@@ -194,8 +189,8 @@
                         "text": "Version"
                     },
                     {
-                        "text": "1.4.0",
-                        "url": "https://microsoft.github.io/azure-iot-developer-kit/versions/"
+                        "text": "1.8.0",
+                        "url": "https://github.com/Microsoft/vscode-azure-iot-edge/releases"
                     }
                 ],
                 [
@@ -203,7 +198,7 @@
                         "text": "Last updated"
                     },
                     {
-                        "text": "July 19, 2018"
+                        "text": "January 9, 2019"
                     }
                 ]
             ]
@@ -215,11 +210,6 @@
                     "icon": "github",
                     "text": "GitHub",
                     "url": "https://github.com/Microsoft/vscode-azure-iot-edge"
-                },
-                {
-                    "icon": "feed",
-                    "text": "Feed",
-                    "url": "https://blogs.msdn.microsoft.com/iotdev/feed/"
                 }
             ]
         }
